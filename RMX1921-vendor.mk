@@ -26,6 +26,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1921/proprietary/system_ext/framework/vendor.qti.ims.factory-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.ims.factory-V1.0-java.jar \
     vendor/realme/RMX1921/proprietary/system_ext/framework/vendor.qti.ims.factory-V1.1-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.ims.factory-V1.1-java.jar \
     vendor/realme/RMX1921/proprietary/system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.ims.factory-V2.0-java.jar \
+    vendor/realme/RMX1921/proprietary/system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.ims.connection-V1.0-java.jar \
+    vendor/realme/RMX1921/proprietary/system_ext/framework/vendor.qti.ims.rcssip-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.ims.rcssip-V1.0-java.jar \
+    vendor/realme/RMX1921/proprietary/system_ext/framework/vendor.qti.ims.rcsuce-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.ims.rcsuce-V1.0-java.jar \
     vendor/realme/RMX1921/proprietary/system_ext/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/realme/RMX1921/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
     vendor/realme/RMX1921/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
@@ -296,7 +299,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1921/proprietary/vendor/etc/camera/faceTpl0.rgb32:$(TARGET_COPY_OUT_VENDOR)/etc/camera/faceTpl0.rgb32 \
     vendor/realme/RMX1921/proprietary/vendor/etc/camera/faceTpl1.rgb32:$(TARGET_COPY_OUT_VENDOR)/etc/camera/faceTpl1.rgb32 \
     vendor/realme/RMX1921/proprietary/vendor/etc/camera/gasryuv.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/gasryuv.model \
-    vendor/realme/RMX1921/proprietary/vendor/etc/camera/license.lic:$(TARGET_COPY_OUT_VENDOR)/etc/camera/license.lic \
     vendor/realme/RMX1921/proprietary/vendor/etc/camera/mtStereoParams.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mtStereoParams.bin \
     vendor/realme/RMX1921/proprietary/vendor/etc/camera/mwStereoParams.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mwStereoParams.bin \
     vendor/realme/RMX1921/proprietary/vendor/etc/camera/oppo_camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/oppo_camera_config.xml \
@@ -369,7 +371,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1921/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
     vendor/realme/RMX1921/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
     vendor/realme/RMX1921/proprietary/vendor/etc/init/android.hardware.health@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service.rc \
-    vendor/realme/RMX1921/proprietary/vendor/etc/license.lic:$(TARGET_COPY_OUT_VENDOR)/etc/license.lic \
     vendor/realme/RMX1921/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/realme/RMX1921/proprietary/vendor/etc/permissions/qti_fingerprint_interface.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_fingerprint_interface.xml \
     vendor/realme/RMX1921/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
