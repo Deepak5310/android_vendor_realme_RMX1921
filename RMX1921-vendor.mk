@@ -299,7 +299,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1921/proprietary/vendor/etc/camera/faceTpl0.rgb32:$(TARGET_COPY_OUT_VENDOR)/etc/camera/faceTpl0.rgb32 \
     vendor/realme/RMX1921/proprietary/vendor/etc/camera/faceTpl1.rgb32:$(TARGET_COPY_OUT_VENDOR)/etc/camera/faceTpl1.rgb32 \
     vendor/realme/RMX1921/proprietary/vendor/etc/camera/gasryuv.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/gasryuv.model \
-    vendor/realme/RMX1921/proprietary/vendor/etc/camera/license.lic:$(TARGET_COPY_OUT_VENDOR)/etc/camera/license.lic \
     vendor/realme/RMX1921/proprietary/vendor/etc/camera/mtStereoParams.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mtStereoParams.bin \
     vendor/realme/RMX1921/proprietary/vendor/etc/camera/mwStereoParams.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mwStereoParams.bin \
     vendor/realme/RMX1921/proprietary/vendor/etc/camera/oppo_camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/oppo_camera_config.xml \
@@ -372,7 +371,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1921/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
     vendor/realme/RMX1921/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
     vendor/realme/RMX1921/proprietary/vendor/etc/init/android.hardware.health@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service.rc \
-    vendor/realme/RMX1921/proprietary/vendor/etc/license.lic:$(TARGET_COPY_OUT_VENDOR)/etc/license.lic \
     vendor/realme/RMX1921/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/realme/RMX1921/proprietary/vendor/etc/permissions/qti_fingerprint_interface.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_fingerprint_interface.xml \
     vendor/realme/RMX1921/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
@@ -1530,24 +1528,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/tmobile_at.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tmobile_at.pb \
     vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/uqmobile_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/uqmobile_jp.pb
 
-#MotoDolby
-PRODUCT_COPY_FILES += \
-    vendor/realme/RMX1921/proprietary/system/etc/permissions/com.motorola.dolby.dolbyui.features.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.dolby.dolbyui.features.xml \
-    vendor/realme/RMX1921/proprietary/system/etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml \
-    vendor/realme/RMX1921/proprietary/system_ext/etc/permissions/com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.dolby.daxservice.xml \
-    vendor/realme/RMX1921/proprietary/vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.dolby.hardware.dms@1.0-service \
-    vendor/realme/RMX1921/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@1.0-service.rc \
-    vendor/realme/RMX1921/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
-    vendor/realme/RMX1921/proprietary/vendor/lib/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdapparamstorage.so \
-    vendor/realme/RMX1921/proprietary/vendor/lib/libstagefrightdolby.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrightdolby.so \
-    vendor/realme/RMX1921/proprietary/vendor/lib/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.dolby.hardware.dms@1.0.so \
-    vendor/realme/RMX1921/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
-    vendor/realme/RMX1921/proprietary/vendor/lib64/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdapparamstorage.so \
-    vendor/realme/RMX1921/proprietary/vendor/lib64/libdlbdsservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdlbdsservice.so \
-    vendor/realme/RMX1921/proprietary/vendor/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswdap.so \
-    vendor/realme/RMX1921/proprietary/vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@1.0-impl.so \
-    vendor/realme/RMX1921/proprietary/vendor/lib64/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@1.0.so
-
 # Camera firmware dump
 PRODUCT_COPY_FILES += \
     vendor/realme/RMX1921/proprietary/vendor/etc/camera/prebuilt/aecWarmStartCamera_0.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/prebuilt/aecWarmStartCamera_0.txt \
@@ -1581,6 +1561,4 @@ PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
     WfdService \
-    WfdCommon \
-    daxService \
-    MotoDolbyV3
+    WfdCommon
